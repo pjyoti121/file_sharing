@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import './App.css';
 import { uploadFile } from './service/api';
+import path from 'path';
 
 function App() {
   const [file, setFile] = useState('');
